@@ -1,0 +1,4 @@
+timestamp,severity,alert_type,username,source_ip,evidence,recommended_action
+2026-09-12T09:18:00Z,medium,repeated_failed_logins,a.lee,198.51.100.23,5 failed logins within 10 minutes,"Review source, account context, MFA events, and nearby activity"
+2026-09-12T09:19:00Z,high,success_after_repeated_failures,a.lee,198.51.100.23,Successful login after 5 recent failed logins for same user and IP,"Validate user activity, review MFA and session details, and consider containment if unauthorized"
+2026-09-12T11:02:00Z,high,privileged_role_change,m.chen,192.0.2.50,assigned_admin_role,"Verify approval, actor identity, target role, and change ticket"

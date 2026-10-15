@@ -1,0 +1,11 @@
+timestamp,username,source_ip,event_type,outcome,details
+2026-09-12T08:00:00Z,j.smith,192.0.2.10,login,success,normal morning login
+2026-09-12T09:14:00Z,a.lee,198.51.100.23,login,failure,invalid password
+2026-09-12T09:15:00Z,a.lee,198.51.100.23,login,failure,invalid password
+2026-09-12T09:16:00Z,a.lee,198.51.100.23,login,failure,invalid password
+2026-09-12T09:17:00Z,a.lee,198.51.100.23,login,failure,invalid password
+2026-09-12T09:18:00Z,a.lee,198.51.100.23,login,failure,invalid password
+2026-09-12T09:19:00Z,a.lee,198.51.100.23,login,success,successful login after repeated failures
+2026-09-12T10:30:00Z,svc_backup,192.0.2.44,login,failure,scheduled service check; investigate if unexpected
+2026-09-12T11:02:00Z,m.chen,192.0.2.50,privilege_change,success,assigned_admin_role
+2026-09-12T11:05:00Z,t.jones,192.0.2.18,login,success,normal login
